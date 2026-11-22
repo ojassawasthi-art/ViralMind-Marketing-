@@ -1,0 +1,170 @@
+[
+ {
+  "department": 25,
+  "name": "Return on ad spend analysis",
+  "workflow": "roas",
+  "tests": [
+   "test/workflows.test.ts"
+  ]
+ },
+ {
+  "department": 25,
+  "name": "Customer acquisition cost analysis",
+  "workflow": "cac",
+  "tests": [
+   "test/workflows.test.ts"
+  ]
+ },
+ {
+  "department": 25,
+  "name": "Customer lifetime value analysis",
+  "workflow": "clv",
+  "tests": [
+   "test/workflows.test.ts"
+  ]
+ },
+ {
+  "department": 11,
+  "name": "Title tag optimisation",
+  "workflow": "title_tag",
+  "tests": [
+   "test/workflows.test.ts"
+  ]
+ },
+ {
+  "department": 11,
+  "name": "Meta description optimisation",
+  "workflow": "meta_description",
+  "tests": [
+   "test/workflows.test.ts"
+  ]
+ },
+ {
+  "department": 13,
+  "name": "Conversion rate analysis",
+  "workflow": "conversion_test",
+  "tests": [
+   "test/workflows.test.ts"
+  ]
+ },
+ {
+  "department": 14,
+  "name": "Lead scoring",
+  "workflow": "lead_score",
+  "tests": [
+   "test/workflows.test.ts"
+  ]
+ },
+ {
+  "department": 3,
+  "name": "Marketing budget planning",
+  "workflow": "budget_plan",
+  "tests": [
+   "test/workflows.test.ts"
+  ]
+ },
+ {
+  "department": 3,
+  "name": "Marketing calendar creation",
+  "workflow": "content_calendar",
+  "tests": [
+   "test/workflows.test.ts"
+  ]
+ },
+ {
+  "department": 11,
+  "name": "Schema markup",
+  "workflow": "schema_markup",
+  "tests": [
+   "test/workflows.test.ts"
+  ]
+ },
+ {
+  "department": 25,
+  "name": "Marketing attribution",
+  "workflow": "utm_builder",
+  "tests": [
+   "test/workflows.test.ts"
+  ]
+ },
+ {
+  "department": 17,
+  "name": "SMS campaign creation",
+  "workflow": "sms_segments",
+  "tests": [
+   "test/workflows.test.ts"
+  ]
+ },
+ {
+  "department": 5,
+  "name": "Content optimisation",
+  "workflow": "readability",
+  "tests": [
+   "test/workflows.test.ts"
+  ]
+ },
+ {
+  "department": 11,
+  "name": "On-page SEO",
+  "workflow": "keyword_density",
+  "tests": [
+   "test/workflows.test.ts"
+  ]
+ },
+ {
+  "department": 13,
+  "name": "A/B testing",
+  "workflow": "sample_size",
+  "tests": [
+   "test/workflows.test.ts"
+  ]
+ },
+ {
+  "department": 10,
+  "name": "A/B testing",
+  "workflow": "sample_size",
+  "tests": [
+   "test/workflows.test.ts"
+  ]
+ },
+ {
+  "department": 25,
+  "name": "Campaign performance analysis",
+  "workflow": "campaign_metrics",
+  "tests": [
+   "test/workflows.test.ts"
+  ]
+ },
+ {
+  "department": 26,
+  "name": "Churn analysis",
+  "workflow": "churn",
+  "tests": [
+   "test/workflows.test.ts"
+  ]
+ },
+ {
+  "department": 15,
+  "name": "Customer satisfaction tracking",
+  "workflow": "nps",
+  "tests": [
+   "test/workflows.test.ts"
+  ]
+ },
+ {
+  "department": 9,
+  "name": "Headlines",
+  "workflow": "headline_lint",
+  "tests": [
+   "test/workflows.test.ts"
+  ]
+ },
+ {
+  "department": 3,
+  "name": "Pricing strategy",
+  "workflow": "price_margin",
+  "tests": [
+   "test/workflows.test.ts"
+  ]
+ }
+]

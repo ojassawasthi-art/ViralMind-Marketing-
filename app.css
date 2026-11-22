@@ -1,0 +1,13 @@
+:root{--bg:#0a0812;--panel:#12101f;--line:#241f3d;--tx:#e9e6f7;--mut:#8f89b3;--v:#8b5cf6;--v2:#a78bfa;--ok:#34d399;--warn:#fbbf24;--bad:#f87171}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(1200px 600px at 80% -10%,#2a1860 0,transparent 60%),var(--bg);color:var(--tx);font:15px/1.5 system-ui,sans-serif}
+a{color:var(--v2);text-decoration:none}#app{display:flex;min-height:100vh}
+nav{width:230px;padding:18px;border-right:1px solid var(--line);background:#0c0a17;position:sticky;top:0;height:100vh;overflow:auto}
+nav h1{font-size:15px;letter-spacing:.25em;margin:0 0 18px;color:var(--v2)}nav a{display:block;padding:8px 10px;border-radius:8px;color:var(--mut)}
+nav a.on,nav a:hover{background:#1a1533;color:var(--tx);box-shadow:inset 2px 0 var(--v)}main{flex:1;padding:24px;max-width:1100px}
+h2{margin:0 0 16px}.card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px;margin-bottom:14px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px}.big{font-size:28px;font-weight:700;color:var(--v2)}
+button,.btn{background:var(--v);color:#fff;border:0;border-radius:8px;padding:8px 14px;cursor:pointer;font:inherit}button.ghost{background:transparent;border:1px solid var(--line);color:var(--tx)}button.bad{background:#7f1d1d}
+input,textarea,select{width:100%;background:#0c0a17;color:var(--tx);border:1px solid var(--line);border-radius:8px;padding:9px;font:inherit}textarea{min-height:110px;font-family:ui-monospace,monospace;font-size:13px}
+.tag{display:inline-block;font-size:11px;padding:2px 8px;border-radius:99px;border:1px solid var(--line);color:var(--mut);margin-right:6px}.t-ok{color:var(--ok);border-color:#14532d}.t-warn{color:var(--warn);border-color:#713f12}.t-bad{color:var(--bad);border-color:#7f1d1d}
+pre{background:#0c0a17;border:1px solid var(--line);border-radius:8px;padding:10px;overflow:auto;font-size:12px;white-space:pre-wrap}.row{display:flex;gap:10px;align-items:center;flex-wrap:wrap}.mut{color:var(--mut)}.err{color:var(--bad)}
+.login{max-width:380px;margin:12vh auto;width:100%}@media(max-width:760px){#app{flex-direction:column}nav{width:100%;height:auto;position:static;display:flex;gap:6px;flex-wrap:wrap}nav h1{width:100%}}
